@@ -7,17 +7,17 @@ public class FirstUniqueElementInArrayUsingForLoop {
         int[] nums = {1, 1, 2, 3, 3, 4, 1, 1, 1, 1};
         int firstUniqueElement = 0;
 
-        for (int j = 0; j < nums.length; j++ ) {
+        for ( int each : nums) {
 
         int frequency = 0;
-        for (int i = 0; i < nums.length ; i++) {
-            if (nums[i] == nums[j]) {
+        for (int element : nums) {
+            if (element == each) {
                 frequency++;
             }
         }
 
         if(frequency == 1) {
-            firstUniqueElement = nums[j];
+            firstUniqueElement = each;
             break;
             }
         }
