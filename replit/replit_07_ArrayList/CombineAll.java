@@ -1,4 +1,4 @@
-package replit.Replit_07_ArrayList;
+package replit.replit_07_ArrayList;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -8,8 +8,12 @@ public class CombineAll {
     //create your method below
     public static ArrayList<Integer> combineAL(ArrayList<Integer> numbersOne, ArrayList<Integer> numbersTwo){
 
-        numbersOne.addAll(numbersTwo);
-        return numbersOne;
+        ArrayList<Integer> newArray = new ArrayList<>();
+
+        newArray.addAll(numbersOne);
+        newArray.addAll(numbersTwo);
+
+        return newArray;
         }
 
     // Do not touch below
