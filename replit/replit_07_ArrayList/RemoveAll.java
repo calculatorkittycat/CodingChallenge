@@ -30,6 +30,7 @@ public class RemoveAll {
             }
         }
 
+
         System.out.println(removeAll(list, target));
 
     }

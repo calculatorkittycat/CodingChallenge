@@ -1,4 +1,4 @@
-package replit.replit_07_ArrayList;
+
 
 import java.util.ArrayList;
 import java.util.Scanner;
