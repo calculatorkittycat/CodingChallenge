@@ -27,3 +27,25 @@ public class RepeatAll {
 
 }
 
+/*
+Create a static method that:
+
+- is called `repeatAll`
+- returns `ArrayList of Booleans`
+- takes in a single parameter - an `ArrayList of Booleans`
+
+This method should modify its ArrayList parameter by repeating its ArrayList values.
+
+For example, if the parameter is
+
+```
+(true, false, false)
+```
+
+The modified ArrayList should be
+
+```
+(true, false, false, true, false, false)
+```
+ */
+
