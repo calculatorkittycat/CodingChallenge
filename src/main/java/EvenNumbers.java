@@ -14,7 +14,7 @@ public class EvenNumbers {
 
     public static void main(String[] args) {
         int max = 10;
-        System.out.print("Even numbers are: ");
+        System.out.print("The even numbers are: ");
         for (int i = 0; i <= max; i++) {
             if (i % 2 == 0) {
                 System.out.print(i + ", ");
